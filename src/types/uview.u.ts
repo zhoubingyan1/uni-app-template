@@ -1,9 +1,4 @@
-/*
- * @Author: mfxhb
- * @Date: 2022-11-29 14:17:31
- * @LastEditTime: 2022-11-29 16:13:50
- * @Description:
- */
+
 import type { HttpRequestAbstract } from "uview-plus/libs/luch-request"
 
 interface URange {
