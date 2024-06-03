@@ -1,0 +1,89 @@
+{
+  // 注册ui框架,还不要忘了有了框架对应的css文件在uni.scss注册
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      // uni-ui 规则如下配置
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+      "^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "bug/task/index",
+      "style": {
+        "navigationBarTitleText": "任务"
+      }
+    },
+    {
+      "path": "bug/task/detail",
+      "style": {
+        "navigationBarTitleText": "任务详情"
+      }
+    },
+    {
+      "path": "bug/user/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "bug/user/rules",
+      "style": {
+        "navigationBarTitleText": "规则说明"
+      }
+    },
+    {
+      "path": "bug/user/suggest",
+      "style": {
+        "navigationBarTitleText": "意见反馈"
+      }
+    },
+    {
+      "path": "bug/user/demand",
+      "style": {
+        "navigationBarTitleText": "我的需求"
+      }
+    },
+    {
+      "path": "bug/user/task",
+      "style": {
+        "navigationBarTitleText": "我的任务"
+      }
+    }
+  ],
+
+  "tabBar": {
+    "custom": true,
+    "color": "#707070",
+    "backgroundColor": "#f0f0f0",
+    "selectedColor": "#000",
+    "borderStyle": "#f0f0f0",
+    "list": [
+      {
+        "pagePath": "bug/task/index",
+        "text": "任务",
+        "iconPath": "/static/images/tabbar/task_pre.png",
+        "selectedIconPath": "/static/images/tabbar/task_after.png"
+      },
+      {
+        "pagePath": "bug/user/index",
+        "text": "我的",
+        "iconPath": "/static/images/tabbar/user_pre.png",
+        "selectedIconPath": "/static/images/tabbar/user_after.png"
+      }
+    ],
+    "midButton": {
+      "width": "80px",
+      "height": "80px",
+      "iconWidth": "60px",
+      "iconPath": "/static/images/tabbar/publish.png"
+    }
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "任务",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

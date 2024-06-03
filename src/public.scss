@@ -1,0 +1,88 @@
+.placeholder {
+  color: #c0c4cc;
+  font-size: 30rpx;
+  font-weight: 400;
+}
+
+.flex,
+.flex-column,
+.flex-wrap,
+.flex-center,
+.justify-start,
+.justify-center,
+.justify-end,
+.justify-around,
+.justify-between,
+.align-center,
+.align-baseline {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.break-col {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  display: block;
+  white-space: nowrap;
+}
+
+.custom-button {
+  user-select: none;
+  cursor: pointer;
+}
+
+.common-flex {
+  flex: 1;
+}
+
+.radius {
+  border-radius: 50%;
+}
+
+.bg-white {
+  background: white;
+}
+
+.color-white {
+  color: white;
+}

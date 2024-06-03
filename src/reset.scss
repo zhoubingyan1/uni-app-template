@@ -1,0 +1,48 @@
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+  left: 0;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  left: 0;
+}
+.self-bottom {
+  background-color: #fff;
+  padding-bottom: calc(constant(safe-area-inset-bottom)) !important;
+  padding-bottom: calc(env(safe-area-inset-bottom)) !important;
+}
+
+view,
+text {
+  word-break: break-all;
+  font-weight: 400;
+}
+
+.u-loadmore__content__text {
+  padding-top: 30rpx;
+}
+
+:deep(.u-divider) {
+  margin: 0 !important;
+}
+
+:deep(.uicon-close) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60rpx;
+  height: 60rpx;
+}
+:deep(.uni-combox__input-plac) {
+  color: #c0c4cc !important;
+  font-size: 30rpx;
+}
+:deep(.uni-combox__input) {
+  font-size: 30rpx;
+}
